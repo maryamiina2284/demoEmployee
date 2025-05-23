@@ -72,7 +72,7 @@ demoEmployee/
 
 
 
-Configure the database:
+## Configure the database:
 
 Edit src/main/resources/application.properties:
 
@@ -85,13 +85,14 @@ Edit src/main/resources/application.properties:
    spring.jpa.hibernate.ddl-auto=update
 
 
-Run the application:
+## Run the application:
 
-   bash
+  ## ``bash
    mvn spring-boot:run
    Visit the app at http://localhost:8080
 
-📦 Features
+## 📦 Features
+
    ✅ Add Employee
    
    ✅ View All Employees
