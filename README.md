@@ -6,24 +6,43 @@ This is a simple **Spring Boot CRUD application** that allows you to manage empl
 
 demoEmployee/
 ├── src/
+
 │ ├── main/
+
 │ │ ├── java/com/exampleEmployee/
+
 │ │ │ ├── Employee.java
+
 │ │ │ ├── EmployeeController.java
+
 │ │ │ ├── EmployeeRepository.java
+
 │ │ │ ├── EmployeeService.java
+
 │ │ │ └── Main.java
+
 │ │ └── resources/
+
 │ │ ├── static/
+
 │ │ ├── templates/
+
 │ │ │ ├── EditEmployee.html
+
 │ │ │ ├── home.html
+
 │ │ │ ├── ListEmployee.html
+
 │ │ │ ├── Register.html
+
 │ │ │ └── viewAll.html
+
 │ │ └── application.properties
+
 ├── Docker-compose.yml
+
 ├── pom.xml
+
 └── README.md
 
 
@@ -56,9 +75,13 @@ demoEmployee/
    Edit src/main/resources/application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+
 spring.datasource.username=postgres
+
 spring.datasource.password=your_password
+
 spring.jpa.hibernate.ddl-auto=update
+
 
 Run the application:
 
