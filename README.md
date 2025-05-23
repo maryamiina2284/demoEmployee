@@ -70,30 +70,32 @@ demoEmployee/
    git clone https://github.com/your-username/demoEmployee.git
    cd demoEmployee
 
-   Configure the database:
 
-   Edit src/main/resources/application.properties:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+Configure the database:
 
-spring.datasource.username=postgres
+Edit src/main/resources/application.properties:
 
-spring.datasource.password=your_password
-
-spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+   
+   spring.datasource.username=postgres
+   
+   spring.datasource.password=your_password
+   
+   spring.jpa.hibernate.ddl-auto=update
 
 
 Run the application:
 
-bash
-mvn spring-boot:run
-Visit the app at http://localhost:8080
+   bash
+   mvn spring-boot:run
+   Visit the app at http://localhost:8080
 
 📦 Features
-✅ Add Employee
-
-✅ View All Employees
-
-✅ Edit Employee Details
-
-✅ Delete Employee
+   ✅ Add Employee
+   
+   ✅ View All Employees
+   
+   ✅ Edit Employee Details
+   
+   ✅ Delete Employee
